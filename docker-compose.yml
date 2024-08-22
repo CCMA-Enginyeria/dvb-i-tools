@@ -4,8 +4,8 @@ volumes:
 services:
   dvb-i-tools:
     # Comment build and uncomment image if you want to use prebuilt image rather than build from the source code
-    build: .
-    #image: ghcr.io/CCMA-Enginyeria/dvb-i-tools/dvb-i-tools:latest
+    # build: .
+    image: ghcr.io/ccma-enginyeria/dvb-i-tools/dvb-i-tools:latest
     environment:
       - no_proxy=localhost,127.0.0.1
     ports:
